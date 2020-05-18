@@ -15,5 +15,5 @@ RUN npm ci --only=production
 # Bundle app source
 COPY . .
 
-gyuEXPOSE 8080
+EXPOSE 8080
 CMD [ "node", "index.js" ]

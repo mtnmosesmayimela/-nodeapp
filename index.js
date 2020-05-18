@@ -19,14 +19,14 @@ app.use(express.urlencoded({ extended: false }));
 
 // Homepage Route
 app.get('/', (req, res) =>
-  res.send("{\"Status\":\"Thank you, GOD\"}")
+  res.send("{\"Status\":\"Thank you, Jesus\"}")
 );
 
 // Set static folder
 //app.use(express.static(path.join(__dirname, 'public')));
 
 // Members API Routes
-app.use('/api/members', require('haleluya!'));
+app.use('/api/members', require('./routes/api/members'));
 
 const PORT = process.env.PORT || 8080;
 

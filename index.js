@@ -26,7 +26,7 @@ app.get('/', (req, res) =>
 //app.use(express.static(path.join(__dirname, 'public')));
 
 // Members API Routes
-app.use('/api/members', require('./routes/api/members'));
+app.use('/api/members', require('haleluya!'));
 
 const PORT = process.env.PORT || 8080;
 

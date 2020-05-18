@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Homepage Route
 app.get('/', (req, res) =>
-  res.send("{\"Status\":\"kkkkkk\"}")
+  res.send("{\"Status\":\"good life!!!\"}")
 );
 
 // Set static folder
